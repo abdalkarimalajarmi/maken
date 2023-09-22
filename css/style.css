@@ -1,0 +1,188 @@
+body {
+    background-color: #F6F6F6;
+    font-family: jannat, sans-serif;
+    /* Keep the specified font */
+}
+
+.aboutUs {
+    padding: 5rem;
+    text-align: center;
+    background-color: #C4DDEA;
+    color: #1B2A58;
+}
+
+.aboutUs span {
+    color: #EE3B24;
+}
+
+.aboutUs img {
+    width: 16rem;
+    height: 9rem;
+}
+
+.secondSec {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 3rem;
+    background-color: #1B2A58;
+    color: #C4DDEA;
+}
+
+.secondSec .word-animation p {
+    color: #6BC0B7;
+}
+
+.secondSec .firstSentence {
+    display: flex;
+    justify-content: center;
+}
+
+.word-animation {
+    width: 13rem;
+    height: 60px;
+    overflow: hidden;
+    position: relative;
+}
+
+.word {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(0);
+    opacity: 0;
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.secondSec .unique {
+    color: #EE3B24;
+}
+
+.partnersClients {
+    padding: 6rem 3rem 8rem 3rem;
+    text-align: center;
+    color: #F9A325;
+}
+
+.partnersClients h2 {
+    padding: 4rem;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #F9A325 !important;
+    color: white;
+    border-radius: 5px;
+}
+
+.partnersClients .badaa {
+    width: 12rem;
+    height: 12rem;
+}
+
+.partnersClients .ermine {
+    width: 17rem;
+    height: 7rem;
+}
+
+.partnersClients .jona {
+    width: 10rem;
+    height: 7rem;
+}
+
+.partnersClients .salla {
+    width: 15rem;
+    height: 7rem;
+}
+
+.partnersClients .firstWindow {
+    width: 15rem;
+    height: 7rem;
+}
+
+.partnersClients .coffeeAddress {
+    width: 15rem;
+    height: 12rem;
+}
+
+.book {
+    padding: 3rem;
+}
+
+.book h2 {
+    text-align: center;
+    padding: 3rem;
+    color: #009599;
+}
+
+.book form {
+    width: 40%;
+    margin: auto;
+    text-align: start;
+    background-color: #275C88;
+    padding: 3rem;
+    border-radius: 8px;
+    color: #EE3B24;
+}
+
+.btn {
+    background-color: #EE3B24 !important;
+    border-color: #EE3B24;
+    color: #275C88;
+}
+
+@media (max-width: 575.98px) {
+    html {
+        font-size: 8px;
+    }
+
+    .word-animation {
+        height: 40px;
+    }
+
+    .book form {
+        width: 80%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    html {
+        font-size: 8px;
+    }
+
+    .word-animation {
+        height: 42px;
+    }
+
+    .book form {
+        width: 70%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    html {
+        font-size: 10px;
+    }
+
+    .word-animation {
+        height: 45px;
+    }
+
+    .book form {
+        width: 60%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    html {
+        font-size: 14px;
+    }
+
+    .word-animation {
+        height: 50px;
+    }
+}
